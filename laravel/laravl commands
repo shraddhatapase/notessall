@@ -1,0 +1,95 @@
+
+4. php artisan migrate:refresh
+Rolls back and then re-runs all migrations.
+5. php artisan migrate:status
+Shows the status of each migration.
+6. php artisan db:seed
+Seeds the database with data.
+7. php artisan tinker
+Opens an interactive REPL for running PHP code.
+Make Commands (for creating files)
+1. php artisan make:model [ModelName]
+Creates a new Eloquent model.
+2. php artisan make:controller [ControllerName]
+Creates a new controller.
+3. php artisan make:migration [MigrationName]
+Creates a new migration file.
+4. php artisan make:seeder [SeederName]
+Creates a new database seeder.
+5. php artisan make:factory [FactoryName]
+Creates a new model factory.
+6. php artisan make:request [RequestName]
+Creates a new form request class.
+7. php artisan make:middleware [MiddlewareName]
+Creates a new middleware class.
+8. php artisan make:command [CommandName]
+Creates a new Artisan command.
+9. php artisan make:event [EventName]
+Creates a new event class.
+10. php artisan make:listener [ListenerName]
+Creates a new listener class.
+11. php artisan make:job [JobName]
+Creates a new job class.
+12. php artisan make:mail [MailName]
+Creates a new mailable class.
+13. php artisan make:notification [NotificationName]
+Creates a new notification class.
+14. php artisan make:policy [PolicyName]
+Creates a new policy class.
+
+Queue Commands
+1. php artisan queue:work
+Processes jobs on the queue.
+2. php artisan queue:listen
+Listens to the queue and processes jobs.
+3. php artisan queue:restart
+Restarts the queue worker.
+4. php artisan queue:table
+Generates the migration for the jobs table.
+
+Cache & Config Commands
+1. php artisan config:cache
+Caches the application’s configuration.
+2. php artisan cache:clear
+Clears the application’s cache.
+3. php artisan route:cache
+Caches the application’s routes.
+4. php artisan route:clear
+Clears the cached routes.
+5. php artisan view:clear
+Clears compiled views.
+
+Event Commands
+1. php artisan event:generate
+Generates event and listener classes for any events in the EventServiceProvider.
+2. php artisan event:list
+Lists all registered events and listeners.
+
+Storage Commands
+1. php artisan storage:link
+Creates a symbolic link from public/storage to storage/app/public.
+
+Test Commands
+1. php artisan test
+Runs the tests defined in your application.
+2. php artisan make:test [TestName]
+Creates a new test class.
+Environment & Debugging
+1. php artisan env
+Shows the current environment.
+2. php artisan key:generate
+Generates a new application key.
+3. php artisan optimize
+Optimizes the application's performance.
+
+Other Useful Commands
+1. php artisan serve
+Starts the Laravel development server.
+2. php artisan schedule:run
+Runs scheduled tasks.
+3. php artisan inspire
+Displays a random Laravel-inspired quote.
+4. php artisan make:resource [ResourceName]
+Creates a new API resource class.
+5. php artisan make:rule [RuleName]
+Creates a new validation rule class.
